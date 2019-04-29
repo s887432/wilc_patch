@@ -8,10 +8,8 @@ mkdir -p /run/network
 
 case "$1" in
   start)
-	printf "Starting WILC1000:"
+	printf "Starting WILC:"
 	/root/start_wlan.sh
-	printf "Start MAX30100 Application"
-	max30100
 	;;
   stop)
 	;;
